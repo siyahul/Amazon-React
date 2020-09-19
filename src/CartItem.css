@@ -4,16 +4,21 @@
     flex-direction: row;
 }
 .cartItem >img{
-    width:100px;
-    height: 100px;
+    width:180px;
+    height: 180px;
     object-fit :contain;
     margin: 0 20px;
     margin-top:18px;
 }
 .cartItem__description{
+    padding: 10px;
     justify-content:center;
     margin-top:auto;
     margin-bottom:auto;
+}
+.cartItem__title{
+    font-size:17px;
+    font-weight:800px;
 }
 .cartItem__description>button{
     background:#f0c14b;
